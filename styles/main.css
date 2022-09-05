@@ -268,3 +268,48 @@ footer {
   padding: 3.4rem;
   /* height: 100vh; */
 }
+
+/* BLOG PAGE */
+
+.blog__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 9.6rem auto;
+  max-width: 80rem;
+}
+
+.blog__item {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 0;
+  padding: 4.8rem 2rem;
+  /* border-bottom: 5px solid var(--bg); */
+}
+
+.blog__item-title {
+  grid-column: 1 / 4;
+  color: var(--accent);
+  font-size: 1.8rem;
+
+  /* margin-top: 2.4rem; */
+}
+
+.item__blurb {
+  grid-column: 1 / 4;
+  padding-right: 1.4rem;
+  /* text-align: justify; */
+}
+
+.btn-2 {
+  grid-column: 1 / 4;
+}
+
+.blog__icon {
+  /* grid-row: 1 /4; */
+  /* grid-column: 1/2; */
+  /* width: 50%; */
+  /* height: auto; */
+  /* justify-self: center; */
+}
