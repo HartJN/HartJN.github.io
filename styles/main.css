@@ -166,6 +166,7 @@ body {
 
 .article__blurb {
   grid-column: 2 / 4;
+  padding-right: 1.4rem;
 }
 
 .article__img {
