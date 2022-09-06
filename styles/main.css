@@ -1,17 +1,25 @@
 :root {
-  --accent: #54d02b;
-  --accent-darker: #39a615;
-  --text: #e0e1f0;
-  --bg: #14121a;
+  --accent: /* #54d02b */ #58a6ff;
+  --accent-darker: /* #39a615 */ #356499;
+  --text: /* #e0e1f0 */ #c9d1d9;
+  --bg: /* #14121a */ #0d1117;
   --text-sub: #b7b8c5;
   --text-alt: #7a7a85;
-  --bg-alt: #201e26;
+  --bg-alt: /* #201e26 */ #161b22;
   --font: Roboto Mono, monospace;
   --weight-normal: 400;
   --weight-medium: 500;
   --weight-bold: 700;
-  --red: #d02b2b;
-  --green: #54d02b;
+
+  /* 
+  
+  #0d1117
+#58a6ff
+#c9d1d9
+#161b22
+#161b22
+  
+  */
 }
 
 * {
