@@ -31,128 +31,60 @@
 
     <main>
       <div class="container">
-        <h1 class="title">HTML & CSS</h1>
-        <p class="sub__title">By James Hart</p>
+        <h1 class="title">Classes vs IDs</h1>
+        <p class="sub__title">Q & A</p>
 
         <div class="blog__container">
-          <h2 class="blog__header">Flexbox vs Grid</h2>
+          <h2 class="blog__header">What are they?</h2>
           <p class="blog__content">
-            If you have recently tried your hand at styling a website, you've
-            probably ran into either of these two. Both of these properties
-            handle how elements are layed out on a webpage, but both have their
-            own strengths and weaknesses, making it important to choose the
-            correct one.
+            IDs and Classes are the two most important concepts of css. They are
+            added to HTML elements in order to select and style them.
           </p>
-          <h2 class="blog__header">What is flexbox?</h2>
+          <h2 class="blog__header">Why use an ID?</h2>
           <p class="blog__content">
-            Flexbox was designed for creating one-dimensional layouts, best
-            suiting components that are arranged in a single row or column.
-          </p>
+            An ID is a unique identifier for an element and can only be used one
+            time per page. They are best suited for when the element only needs
+            to be selected once. <br /><br />
 
-          <h2 class="blog__header">What is Grid?</h2>
-          <p class="blog__content">
-            Grid was designed as a way to created two-dimensional layouts, best
-            suited for complex layouts. A good way to explain this, is to
-            compare it to a newspaper, you have multiple rows and columns of
-            content layed out on the pages.
-          </p>
+            Once you apply an ID to your HTML via id="", you select it in your
+            CSS with the # symbol followed by its given name. <br /><br />
 
-          <h2 class="blog__header">Which should you use?</h2>
-          <p class="blog__content">
-            Both grid and flex have their own uses! It depends on the situation,
-            do you need a simple, one-dimensional layout like a menu or form? if
-            so, flexbox is the way to go! Do you need to create a complex
-            layout, that has multiple rows and columns? then grid is the better
-            choice for you.
-          </p>
-        </div>
-        <div class="resources__container">
-          <h2 class="blog__header">Learning CSS Grid and Flexbox</h2>
-          <p class="blog__content">
-            Here are some games that teach you CSS grid and Flexbox in an
-            interactive way!
+            Here's an example of how you select an ID. <br /><br />
+            #idExample{ <br />
+            <br />
+            background-color: #000 <br />
+            <br />
+            }
           </p>
 
-          <div class="resources__wrapper">
-            <h2 class="blog__resources-title">Grid Garden</h2>
-            <p>
-              <a href="http://cssgridgarden.com/" class="resource__link"
-                >Grid Garden</a
-              >
-              teaches you about the different parts of the CSS grid layout in 28
-              different interactive levels.
-            </p>
-            <a href="http://cssgridgarden.com/">
-              <img
-                src="/blog/imgs/grid-garden.webp"
-                alt="an image of the 16th level of grid garden, demonstrating how to use grid-area."
-                class="resource-img"
-              />
-            </a>
-          </div>
-          <div class="resources__wrapper">
-            <h2 class="blog__resources-title">Grid Attack</h2>
+          <h2 class="blog__header">Why use a class?</h2>
+          <p class="blog__content">
+            A class is a way of grouping elements together, it used when you
+            need the ability to style multiple elements. <br /><br />
 
-            <p>
-              <a
-                href="https://codingfantasy.com/games/css-grid-attack"
-                class="resource__link"
-                >Grid Attack</a
-              >
-              is a game designed to teach you all aspects of CSS Grid. It
-              includes 80 levels, 40 real-project layouts and 3 game modes
-              (easy, medium, hard) all in a fun and interactive environment!
-            </p>
-            <a href="https://codingfantasy.com/games/css-grid-attack">
-              <img
-                src="/blog/imgs/grid-attack.webp"
-                alt="an image of the 2nd level of grid attack, demonstrating how to use grid-template-columns."
-                class="resource-img"
-              />
-            </a>
-          </div>
+            A class is applied to HTML with class="", it is then selected in the
+            CSS with the . symbol.<br /><br />
 
-          <div class="resources__wrapper">
-            <h2 class="blog__resources-title">Flexbox Froggy</h2>
+            Here's an example of how you select a class. <br /><br />
+            .classExample{ <br />
+            <br />
+            background-color: #fff <br />
+            <br />
+            }
+          </p>
 
-            <p>
-              <a href="http://flexboxfroggy.com/" class="resource__link"
-                >Flexbox Froggy</a
-              >
-              teaches you how to learn the flexbox syntax. Over 24 levels, it
-              shows you the wide range of properties that flexbox offers, and
-              how to use them.
-            </p>
-            <a href="http://flexboxfroggy.com/">
-              <img
-                src="/blog/imgs/flexbox-froggy.webp"
-                alt="an image of the 8th level of Flexbox Froggy, teaching you how to use flex-direction."
-                class="resource-img"
-              />
-            </a>
-          </div>
-          <div class="resources__wrapper">
-            <h2 class="blog__resources-title">Flex Box Adventure</h2>
-
-            <p>
-              <a
-                href="https://codingfantasy.com/games/flexboxadventure/play"
-                class="resource__link"
-                >Flex Box Adventure</a
-              >
-              is from the same makers of Grid Attack, it is an interactive
-              adventure game, consisting of 24 levels made to assist you in
-              understanding the basics of Flex Box!
-            </p>
-
-            <a href="https://codingfantasy.com/games/flexboxadventure/play">
-              <img
-                src="/blog/imgs/flexbox-adventure.webp"
-                alt="an image of the 1st level of flex box adventure."
-                class="resource-img"
-              />
-            </a>
-          </div>
+          <h2 class="blog__header">
+            What is specificity and why does it matter?
+          </h2>
+          <p class="blog__content">
+            Specificity in CSS is the hierarchical structure of selectors. It is
+            a formula which determines which style rules will be applied to an
+            element. <br /><br />
+            When it comes to the specificity of Classes vs IDs, Classes have a
+            lower specificity than IDs, meaning any conflicting styles applied
+            to an element with a Class will be overridden by the styles applied
+            with an ID.
+          </p>
         </div>
       </div>
     </main>
