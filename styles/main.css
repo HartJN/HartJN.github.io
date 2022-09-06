@@ -166,7 +166,6 @@ hr {
   flex-direction: column;
   width: 20rem;
   height: 40rem;
-  /* align-self: flex-start; */
 }
 
 .home__intro {
@@ -226,6 +225,11 @@ hr {
   flex-direction: row;
   gap: 1.2rem;
 }
+.contact__icon {
+  color: var(--accent);
+  height: 25px;
+  width: 25px;
+}
 
 .home__contact {
   color: var(--text);
@@ -234,7 +238,7 @@ hr {
 .about__link {
   text-decoration: none;
   height: 100%;
-  width: 100%;
+  width: fit-content;
   cursor: pointer;
   display: inline-block;
   transition: transform 0.4s;
@@ -243,12 +247,6 @@ hr {
 
 .about__link:hover {
   transform: translateY(-5px);
-}
-
-.contact__icon {
-  color: var(--accent);
-  height: 100%;
-  width: 100%;
 }
 
 /* .footer__copyright {
@@ -279,9 +277,7 @@ footer {
   flex-direction: column;
   max-width: 80rem;
   margin: 9.6rem auto;
-  /* background-color: var(--bg-alt); */
   border-radius: 2rem;
-  /* height: 100vh; */
   padding: 3.4rem;
   row-gap: 2rem;
 }
@@ -291,21 +287,17 @@ footer {
 
 .blog__header {
   color: var(--accent);
-  /* color: var(--accent-darker); */
-  /* color: var(--text); */
   margin: 3.4rem 0;
   font-size: 2.4rem;
 }
 
 .resources__wrapper {
-  /* margin: 4.8rem 0; */
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
 .blog__resources-title {
-  /* color: var(--accent); */
   color: var(--text);
   margin-top: 3.4rem;
   margin-bottom: 3.4rem;
@@ -338,7 +330,6 @@ footer {
   border-radius: 2rem;
   row-gap: 2rem;
   padding: 3.4rem;
-  /* height: 100vh; */
 }
 
 /* BLOG PAGE */
@@ -357,31 +348,19 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem 0;
   padding: 4.8rem 2rem;
-  /* border-bottom: 5px solid var(--bg); */
 }
 
 .blog__item-title {
   grid-column: 1 / 4;
   color: var(--accent);
   font-size: 1.8rem;
-
-  /* margin-top: 2.4rem; */
 }
 
 .item__blurb {
   grid-column: 1 / 4;
   padding-right: 1.4rem;
-  /* text-align: justify; */
 }
 
 .btn-2 {
   grid-column: 1 / 4;
-}
-
-.blog__icon {
-  /* grid-row: 1 /4; */
-  /* grid-column: 1/2; */
-  /* width: 50%; */
-  /* height: auto; */
-  /* justify-self: center; */
 }
