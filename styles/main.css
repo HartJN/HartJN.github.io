@@ -1,6 +1,6 @@
 :root {
-  --accent: /* #54d02b */ #58a6ff;
-  --accent-darker: /* #39a615 */ #356499;
+  --accent: /* #54d02b */ /* #58a6ff */ #69afff;
+  --accent-darker: /* #39a615 */ #4f95e6;
   --text: /* #e0e1f0 */ #c9d1d9;
   --bg: /* #14121a */ #0d1117;
   --text-sub: #b7b8c5;
@@ -10,16 +10,6 @@
   --weight-normal: 400;
   --weight-medium: 500;
   --weight-bold: 700;
-
-  /* 
-  
-  #0d1117
-#58a6ff
-#c9d1d9
-#161b22
-#161b22
-  
-  */
 }
 
 * {
@@ -136,6 +126,11 @@ p {
   text-align: justify;
   margin: 9.6rem auto;
   font-size: 1.6rem;
+}
+
+.about {
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 .title {
