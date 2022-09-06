@@ -33,6 +33,7 @@ body {
   color: var(--text-sub);
   background: var(--bg);
   height: 100vh;
+  width: 100%;
   overflow-x: hidden;
   tab-size: 4;
   font-weight: var(--weight-normal);
@@ -45,6 +46,11 @@ h3 {
 
 p {
   color: var(--text-sub);
+}
+
+a,
+p {
+  font-size: 1.4rem;
 }
 
 .header {
@@ -60,12 +66,12 @@ p {
 .logo {
   text-decoration: none;
   cursor: pointer;
-  font-size: 3.4rem;
 }
 
 .logo__para {
   color: var(--text);
   font-weight: var(--weight-medium);
+  font-size: 3.4rem;
 }
 
 .logo__span {
@@ -85,6 +91,7 @@ p {
   text-decoration: none;
   color: var(--accent);
   position: relative;
+  font-size: 1.6rem;
 }
 
 .nav__link::after {
@@ -120,6 +127,7 @@ p {
   margin: 0 auto;
   text-align: justify;
   margin: 9.6rem auto;
+  font-size: 1.6rem;
 }
 
 .title {
@@ -128,6 +136,7 @@ p {
   overflow-x: hidden;
   text-overflow: ellipsis;
   color: var(--accent);
+
   margin-top: 3.4rem;
 }
 
@@ -206,23 +215,26 @@ p {
   color: var(--accent-darker);
 }
 
-.footer__copyright {
+/* .footer__copyright {
 }
 
 footer {
-  bottom: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
   margin-top: 9.6rem;
-  /* position: relative; */
+  height: 3rem;
+  width: 100%;
 }
 
 .copyright {
-  width: 100vw;
+  width: 100%;
   font-size: 1.4rem;
   line-height: 1.6;
   text-align: center;
   bottom: 0;
   padding: 2.4rem 0;
-}
+} */
 
 /* BLOG */
 
@@ -231,7 +243,7 @@ footer {
   flex-direction: column;
   max-width: 80rem;
   margin: 9.6rem auto;
-  background-color: var(--bg-alt);
+  /* background-color: var(--bg-alt); */
   border-radius: 2rem;
   /* height: 100vh; */
   padding: 3.4rem;
@@ -243,7 +255,10 @@ footer {
 
 .blog__header {
   color: var(--accent);
+  /* color: var(--accent-darker); */
+  /* color: var(--text); */
   margin: 3.4rem 0;
+  font-size: 2.4rem;
 }
 
 .resources__wrapper {
