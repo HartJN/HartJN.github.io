@@ -18,6 +18,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) var(--bg);
 }
 
 html {
@@ -32,6 +34,17 @@ body {
   background: var(--bg);
   height: 100vh;
   overflow-x: hidden;
+  tab-size: 4;
+  font-weight: var(--weight-normal);
+}
+
+h2,
+h3 {
+  font-weight: var(--weight-medium);
+}
+
+p {
+  color: var(--text-sub);
 }
 
 .header {
@@ -130,7 +143,7 @@ body {
   flex-direction: column;
   max-width: 80rem;
   margin: 9.6rem auto;
-  background-color: var(--bg-alt);
+  /* background-color: var(--bg-alt); */
   border-radius: 2rem;
 }
 
