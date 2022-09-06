@@ -123,7 +123,7 @@ p {
   justify-self: center;
   max-width: 80rem;
   margin: 0 auto;
-  text-align: justify;
+  /* text-align: justify; */
   margin: 9.6rem auto;
   font-size: 1.6rem;
 }
