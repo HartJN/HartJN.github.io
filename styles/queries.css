@@ -53,7 +53,7 @@
 /*  BELOW 340px(Phones) */
 /* ******************************** */
 
-@media (max-width: 21em) {
+@media (max-width: 23em) {
   .title {
     font-size: 5.4rem;
   }
