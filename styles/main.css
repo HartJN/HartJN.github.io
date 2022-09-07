@@ -283,12 +283,33 @@ footer {
 }
 
 .blog__content {
+  padding: 1rem;
+}
+
+.blog__sub-text {
+  color: var(--accent);
+  padding: 1rem;
+}
+
+.blog__codeblock {
+  background-color: var(--bg-alt);
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+.blog__codeblock-span {
+  color: var(--accent);
 }
 
 .blog__header {
   color: var(--accent);
+  /* color: var(--text); */
   margin: 3.4rem 0;
   font-size: 2.4rem;
+  font-weight: var(--weight-bold);
+  padding: 1rem;
 }
 
 .resources__wrapper {

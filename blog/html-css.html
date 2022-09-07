@@ -33,44 +33,52 @@
     <main>
       <div class="container">
         <h1 class="title">Classes vs IDs</h1>
-        <p class="sub__title">Q & A</p>
+        <!-- <p class="sub__title">Q & A</p> -->
 
         <div class="blog__container">
           <h2 class="blog__header">What are they?</h2>
           <p class="blog__content">
-            IDs and Classes are the two most important concepts of css. They are
-            added to HTML elements in order to select and style them.
+            Classes and IDs are two of the most important concepts in CSS, they
+            are classified as selectors. <br /><br />
+            Selectors are what determine which elements in the DOM will be
+            styled by the rules declaration properties. Selectors can match the
+            ID, Class, Attribute or HTML element.
           </p>
-          <h2 class="blog__header">Why use an ID?</h2>
+
+          <h2 class="blog__header">What is an ID Selector?</h2>
           <p class="blog__content">
-            An ID is a unique identifier for an element and can only be used one
-            time per page. They are best suited for when the element only needs
-            to be selected once. <br /><br />
-
-            Once you apply an ID to your HTML via id="", you select it in your
-            CSS with the # symbol followed by its given name. <br /><br />
-
-            Here's an example of how you select an ID. <br /><br />
-            #idExample{ <br />
-            <br />
-            background-color: #000 <br />
-            <br />
+            An ID is an unique identifier, used to select a single element on a
+            page.
+          </p>
+          <h3 class="blog__sub-text">Usage</h3>
+          <p class="blog__content">
+            An ID selector finds the HTML element that matches its value based
+            on the id attribute. It is best suited for uses where the element
+            only appears on the page once (e.g. navigation-bar, header, footer).
+          </p>
+          <h3 class="blog__sub-text">Syntax</h3>
+          <p class="blog__codeblock">
+            <span class="blog__codeblock-span">#idExample</span>{ <br /><br />
+            background-color: #fff; <br /><br />
             }
           </p>
 
-          <h2 class="blog__header">Why use a class?</h2>
+          <h2 class="blog__header">What is Class Selector?</h2>
           <p class="blog__content">
-            A class is a way of grouping elements together, it used when you
-            need the ability to style multiple elements. <br /><br />
-
-            A class is applied to HTML with class="", it is then selected in the
-            CSS with the . symbol.<br /><br />
-
-            Here's an example of how you select a class. <br /><br />
-            .classExample{ <br />
-            <br />
-            background-color: #fff <br />
-            <br />
+            A class selector is a way of grouping multiple elements together.
+          </p>
+          <h3 class="blog__sub-text">Usage</h3>
+          <p class="blog__content">
+            A Class selector finds the HTML element that matches its value based
+            on the class attribute. It can be used for styling single or
+            multiple elements that appear on the page multiple times (Headings,
+            paragraphs, links).
+          </p>
+          <h3 class="blog__sub-text">Syntax</h3>
+          <p class="blog__codeblock">
+            <span class="blog__codeblock-span">.classExample</span>{
+            <br /><br />
+            background-color: #fff; <br /><br />
             }
           </p>
 
@@ -84,7 +92,14 @@
             When it comes to the specificity of Classes vs IDs, Classes have a
             lower specificity than IDs, meaning any conflicting styles applied
             to an element with a Class will be overridden by the styles applied
-            with an ID.
+            with an ID. <br /><br />
+          </p>
+          <h3 class="blog__sub-text">Problem with IDs</h3>
+          <p class="blog__content">
+            ID selectors add a high level of unneeded specificity to your rule
+            declarations while being non-reusable. Due to this, some
+            organisations such as Airbnb have placed a blanket-ban on using ID
+            selectors in their style sheets.
           </p>
         </div>
       </div>
