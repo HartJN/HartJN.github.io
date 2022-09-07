@@ -38,23 +38,16 @@
 HartJN.github.io
 .
 ├── blog
-│   ├── blog.html
-│   ├── grid-flex.html
-│   ├── html-css.html
-│   ├── identity-values.html
-│   ├── imgs
-│   │   ├── flexbox-adventure.webp
-│   │   ├── flexbox-froggy.webp
-│   │   ├── grid-attack.webp
-│   │   ├── grid-garden.webp
-│   │   └── HeartSVG.svg
-│   ├── learning-plan.html
-│   └── te-houtaewa-template.html
+│   ├── blog-pages-go-here.html
+│   └── imgs
+│       └── images-go-here.webp
+│      
+│ 
 ├── index.html
 ├── LICENSE
 ├── read-me-imgs
-│   ├── blog-page-wireframe.png
-│   └── home-page-wireframe.png
+│   └── read-me-images-go-here.png
+│  
 ├── README.md
 └── styles
     ├── main.css
