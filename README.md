@@ -153,3 +153,10 @@ Structure of an elements full name
 ```
 
 You can find out more about BEM here: [BEM quick start](https://en.bem.info/methodology/quick-start/#introduction)
+
+## Plans for site:
+
+- Add Projects Page
+- Create global CSS classes to reduce repetition.
+- Add Themes
+- Add Simple JavaScript functions; Lazy Loading, smooth scrolling, pagination on blog section.
