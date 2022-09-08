@@ -21,23 +21,22 @@
           <span class="logo__span">{</span>J<span class="logo__span">}</span>
         </p>
       </a>
-      <nav class="nav__bar">
+      <nav class="nav">
         <ul class="nav__list">
           <li><a class="nav__link" href="/index.html">Home</a></li>
           <li><a class="nav__link" href="/blog/blog.html">Blog</a></li>
-          <!-- <li><a class="nav__link" href="#">Contact</a></li> -->
         </ul>
       </nav>
     </header>
 
     <main>
       <div class="container">
-        <h1 class="title">Classes vs IDs</h1>
+        <h1 class="heading-title">Classes vs IDs</h1>
         <!-- <p class="sub__title">Q & A</p> -->
 
-        <div class="blog__container">
-          <h2 class="blog__header">What are they?</h2>
-          <p class="blog__content">
+        <div class="blog-container">
+          <h2 class="blog-container__header">What are they?</h2>
+          <p class="blog-container__text">
             Classes and IDs are two of the most important concepts in CSS, they
             are classified as selectors. <br /><br />
             Selectors are what determine which elements in the DOM will be
@@ -45,47 +44,47 @@
             ID, Class, Attribute or HTML element.
           </p>
 
-          <h2 class="blog__header">What is an ID Selector?</h2>
-          <p class="blog__content">
+          <h2 class="blog-container__header">What is an ID Selector?</h2>
+          <p class="blog-container__text">
             An ID is an unique identifier, used to select a single element on a
             page.
           </p>
-          <h3 class="blog__sub-text">Usage</h3>
-          <p class="blog__content">
+          <h3 class="blog-container__sub-heading">Usage</h3>
+          <p class="blog-container__text">
             An ID selector finds the HTML element that matches its value based
             on the id attribute. It is best suited for uses where the element
             only appears on the page once (e.g. navigation-bar, header, footer).
           </p>
-          <h3 class="blog__sub-text">Syntax</h3>
-          <p class="blog__codeblock">
-            <span class="blog__codeblock-span">#idExample</span>{ <br /><br />
+          <h3 class="blog-container__sub-heading">Syntax</h3>
+          <p class="blog-codeblock">
+            <span class="blog-codeblock__span">#idExample</span>{ <br /><br />
             background-color: #fff; <br /><br />
             }
           </p>
 
-          <h2 class="blog__header">What is a Class Selector?</h2>
-          <p class="blog__content">
+          <h2 class="blog-container__header">What is a Class Selector?</h2>
+          <p class="blog-container__text">
             A class selector is a way of grouping multiple elements together.
           </p>
-          <h3 class="blog__sub-text">Usage</h3>
-          <p class="blog__content">
+          <h3 class="blog-container__sub-heading">Usage</h3>
+          <p class="blog-container__text">
             A Class selector finds the HTML element that matches its value based
             on the class attribute. It can be used for styling single or
             multiple elements that appear on the page multiple times (Headings,
             paragraphs, links).
           </p>
-          <h3 class="blog__sub-text">Syntax</h3>
-          <p class="blog__codeblock">
-            <span class="blog__codeblock-span">.classExample</span>{
+          <h3 class="blog-container__sub-heading">Syntax</h3>
+          <p class="blog-codeblock">
+            <span class="blog-codeblock__span">.classExample</span>{
             <br /><br />
             background-color: #fff; <br /><br />
             }
           </p>
 
-          <h2 class="blog__header">
+          <h2 class="blog-container__header">
             What is specificity and why does it matter?
           </h2>
-          <p class="blog__content">
+          <p class="blog-container__text">
             Specificity in CSS is the hierarchical structure of selectors. It is
             a formula which determines what style rule will be applied to an
             element. <br /><br />
@@ -94,8 +93,8 @@
             to an element with a Class will be overridden by the styles applied
             with an ID. <br /><br />
           </p>
-          <h3 class="blog__sub-text">Problem with IDs</h3>
-          <p class="blog__content">
+          <h3 class="blog-container__sub-heading">Problem with IDs</h3>
+          <p class="blog-container__text">
             ID selectors add a high level of unneeded specificity to your rule
             declarations while being non-reusable. Due to this, some
             organisations such as Airbnb have placed a blanket-ban on using ID
