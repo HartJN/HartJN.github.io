@@ -91,6 +91,15 @@ footer {
   margin-top: 3.4rem;
 }
 
+.heading-secondary {
+  color: var(--accent);
+  /* color: var(--text); */
+  margin: 3.4rem 0;
+  font-size: 2.4rem;
+  font-weight: var(--weight-bold);
+  padding: 1rem;
+}
+
 .heading-sub {
   font-size: 2.4rem;
   color: var(--text-sub);
@@ -328,15 +337,6 @@ hr {
 
 .blog-codeblock__span {
   color: var(--accent);
-}
-
-.heading-secondary {
-  color: var(--accent);
-  /* color: var(--text); */
-  margin: 3.4rem 0;
-  font-size: 2.4rem;
-  font-weight: var(--weight-bold);
-  padding: 1rem;
 }
 
 .resources-container {
