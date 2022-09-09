@@ -42,7 +42,7 @@ class Particle {
   }
 
   // Check particle position, check mouse position, move the particle, draw the particle
-  update() {
+  update(n = 1) {
     // check if particle is still within canvas
     if (this.x > canvas.width || this.x < 0) {
       this.directionX = -this.directionX
@@ -54,8 +54,8 @@ class Particle {
     let dx = mouse.x - this.x
     let dy = mouse.y - this.y
     // move particle
-    this.x += this.directionX
-    this.y += this.directionY
+    this.x += this.directionX * n
+    this.y += this.directionY * n
     // Draw particle
     this.draw()
   }
@@ -75,8 +75,9 @@ function init() {
     let size = Math.random() * 2 + 1
     let x = Math.random() * (innerWidth - size * 2 - size * 2 + size * 2)
     let y = Math.random() * (innerHeight - size * 2 - size * 2 + size * 2)
-    let directionX = Math.random() * 5 - 2.5
-    let directionY = Math.random() * 5 - 2.5
+    const theta = Math.random() * 2 * Math.PI
+    let directionX = Math.cos(theta) * 2.5
+    let directionY = Math.sin(theta) * 2.5
     let color = 'rgba(88, 166, 255, 0.1)'
 
     particlesArray.push(new Particle(x, y, directionX, directionY, size, color))
@@ -107,16 +108,19 @@ function connect() {
   }
 }
 
+// Adjust Speed of particle
+const SPEED = 0.025
 // Animation Loop
 
-function animate() {
-  requestAnimationFrame(animate)
+function animate(now) {
+  const diff = now - previous
+  previous = now
   ctx.clearRect(0, 0, innerWidth, innerHeight)
-
   for (let i = 0; i < particlesArray.length; i++) {
-    particlesArray[i].update()
+    particlesArray[i].update(diff * SPEED)
   }
   connect()
+  requestAnimationFrame(animate)
 }
 
 // Resize event
@@ -135,4 +139,5 @@ window.addEventListener('mouseout', function () {
 })
 
 init()
-animate()
+let previous = performance.now()
+requestAnimationFrame(animate)
