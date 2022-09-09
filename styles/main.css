@@ -116,6 +116,19 @@ footer {
   display: none !important;
 }
 
+#canvas {
+  height: 100%;
+  width: 100%;
+  background: var(--clr-primary);
+
+  display: block;
+  /* position: fixed; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -999;
+}
+
 /* ******************** */
 /*  Navigation */
 /* ******************** */
