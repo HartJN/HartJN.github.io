@@ -178,3 +178,4 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 - Rename blog-container\_\_header -> heading-secondary
 - Rename heading-title -> heading-primary
 - Animated canvas background
+- Favicon
