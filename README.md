@@ -38,20 +38,31 @@
 HartJN.github.io
 .
 ├── blog
-│   ├── blog-pages-go-here.html
-│   └── imgs
-│       └── images-go-here.webp
-│      
-│ 
+│   ├── blog-pages-go-here
+│   │
+│   └── imgs
+│       └── images-go-here
+│  
+├── favicon-img
+│   │
+│   ├── favicon.icon
+│   └── site.webmanifest
+│
 ├── index.html
 ├── LICENSE
 ├── read-me-imgs
-│   └── read-me-images-go-here.png
-│  
+│   ├── blog-page-wireframe.png
+│   └── home-page-wireframe.png
 ├── README.md
+├── scripts
+│   ├── app.js
+│   ├── bg-canvas.js
+│   └── bg-home-canvas.js
 └── styles
     ├── main.css
     └── queries.css
+
+
 
 ```
 
