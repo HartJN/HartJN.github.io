@@ -161,6 +161,7 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 - Create global CSS classes to reduce repetition.
 - Add Themes
 - Add Simple JavaScript functions; Lazy Loading, smooth scrolling, pagination on blog section.
+- rename CSS classes
 
 # [Known Issues]
 
@@ -174,3 +175,5 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 
 - Mobile Nav
 - Fixed Mobile Nav Bug
+- Rename blog-container\_\_header -> heading-secondary
+- Rename heading-title -> heading-primary
