@@ -154,8 +154,9 @@ Structure of an elements full name
 
 You can find out more about BEM here: [BEM quick start](https://en.bem.info/methodology/quick-start/#introduction)
 
-## Plans for site:
+# [TO-DO]
 
+- Add event delegation to mobile nav
 - Add Projects Page
 - Create global CSS classes to reduce repetition.
 - Add Themes
