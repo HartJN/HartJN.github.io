@@ -330,7 +330,7 @@ hr {
   color: var(--accent);
 }
 
-.blog-container__header {
+.heading-secondary {
   color: var(--accent);
   /* color: var(--text); */
   margin: 3.4rem 0;
