@@ -95,7 +95,7 @@ function connect() {
         (particlesArray[a].y - particlesArray[b].y) *
           (particlesArray[a].y - particlesArray[b].y)
       if (distance < (canvas.width / 5) * (canvas.height / 5)) {
-        opacityValue = 1 - distance / 1500
+        opacityValue = 1 - distance / 2500
         ctx.strokeStyle = 'rgba(88,166,255, ' + opacityValue + ')'
         ctx.lineWidth = 1
         ctx.beginPath()
