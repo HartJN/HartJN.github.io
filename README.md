@@ -164,7 +164,7 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 
 # [Known Issues]
 
-- Clicking on space around mobile menu links will disable contacts class.
+- ~~Clicking on space around mobile menu links will disable contacts class.~~
 
 # changelog
 
@@ -173,3 +173,4 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 ### Added
 
 - Mobile Nav
+- Fixed Mobile Nav Bug
