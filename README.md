@@ -179,3 +179,9 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 - Rename heading-title -> heading-primary
 - Animated canvas background
 - Favicon
+
+## [1.0.1] - 09-09-22
+
+### Added
+
+- Refactored canvas background
