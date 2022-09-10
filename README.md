@@ -173,6 +173,7 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 - Add Themes
 - Add Simple JavaScript functions; Lazy Loading, smooth scrolling, pagination on blog section.
 - rename CSS classes
+- Add controls to particle animations - speed, size, amount.
 
 # [Known Issues]
 
