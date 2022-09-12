@@ -16,3 +16,9 @@ btnNavEl.addEventListener('click', function () {
   //   if (contactEl !== null) contactEl.classList.toggle('disable-display')
   // })
 })
+
+// Fix context menu
+
+document.oncontextmenu = function () {
+  return true
+}
