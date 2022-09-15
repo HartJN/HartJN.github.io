@@ -396,6 +396,7 @@ hr {
 
 .resources__img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .resources-section {
