@@ -131,6 +131,9 @@
   .blog-container--grid {
     grid-template-columns: 1fr;
   }
+  .blog-container-2 {
+    max-width: 40rem;
+  }
 }
 
 /* ******************************** */
