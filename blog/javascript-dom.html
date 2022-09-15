@@ -135,8 +135,7 @@
           </h2>
           <p class="blog-container__text">
             In computer science, control flow is the order in which statements
-            are executed or performed in a program. They are basic building
-            blocks in most programming languages.
+            are executed or performed in a program.
           </p>
           <p class="blog-container__text">
             A loop is a repeating section of code that is executed a certain
@@ -204,10 +203,53 @@
 
           <h2 class="heading-secondary">JavaScript Functions</h2>
           <p class="blog-container__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et
-            assumenda illo maiores perferendis! Libero molestiae, vero aut ut
-            enim, debitis vitae odio porro natus, minima earum aspernatur
-            placeat blanditiis laboriosam.
+            Functions are the main 'building blocks' of a program. They let
+            programs call blocks of code, multiple times without repetition.
+          </p>
+          <p class="blog-container__text">
+            In JavaScript, there are 3 ways of writing a function.
+          </p>
+          <p class="blog-container__text">
+            <span class="blog-codeblock__span">Function declaration</span>: A
+            function that can be used before it's declared.
+          </p>
+          <p class="blog-codeblock blog-codeblock--2">
+            <span class="blog-codeblock__span">function</span
+            ><span class="blog-codeblock__span-2"> exampleFunction(</span
+            >name<span class="blog-codeblock__span-2">)</span>{ <br /><br />
+
+            <span class="blog-codeblock__span-4">return</span> 'Hello'
+            <span class="blog-codeblock__span-4"> + </span> name <br /><br />}
+          </p>
+
+          <p class="blog-container__text">
+            <span class="blog-codeblock__span">Function expression</span>: A
+            function value stored in a variable.
+          </p>
+          <p class="blog-codeblock blog-codeblock--2">
+            <span class="blog-codeblock__span">const</span
+            ><span class="blog-codeblock__span-2"> exampleFunction</span>
+            <span class="blog-codeblock__span-4"> = </span>
+            <span class="blog-codeblock__span">function(</span>name<span
+              class="blog-codeblock__span-2"
+              >)</span
+            >{ <br /><br />
+
+            <span class="blog-codeblock__span-4">return</span> 'Hello'
+            <span class="blog-codeblock__span-4"> + </span> name <br /><br />}
+          </p>
+          <p class="blog-container__text">
+            <span class="blog-codeblock__span">Arrow function</span>: Good for
+            one lines, but lacks some features provided by other types.
+          </p>
+          <p class="blog-codeblock blog-codeblock--2">
+            <span class="blog-codeblock__span">const</span
+            ><span class="blog-codeblock__span-2"> exampleFunction</span>
+            <span class="blog-codeblock__span-4"> = </span> name<span
+              class="blog-codeblock__span-4"
+            >
+              => </span
+            >'Hello' + name;
           </p>
         </div>
       </div>

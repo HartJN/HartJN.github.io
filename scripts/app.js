@@ -5,7 +5,7 @@ const btnNavEl = document.querySelector('.btn-mobile-nav')
 const headerEl = document.querySelector('.header')
 const nav = document.querySelector('nav')
 const navMenuEl = document.querySelectorAll('.nav__list')
-const contactEl = document.querySelector('.contact')
+// const contactEl = document.querySelector('.contact')
 
 btnNavEl.addEventListener('click', function () {
   headerEl.classList.toggle('nav-open')
@@ -22,3 +22,9 @@ btnNavEl.addEventListener('click', function () {
 document.oncontextmenu = function () {
   return true
 }
+
+const exampleBtnEl = document.querySelector('.btn-example')
+
+exampleBtnEl.addEventListener('click', () => {
+  exampleBtnEl.classList.toggle('btn-invert')
+})
