@@ -503,3 +503,9 @@ li::marker {
   background: var(--accent);
   color: var(--bg-alt);
 }
+
+.heart-img {
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
