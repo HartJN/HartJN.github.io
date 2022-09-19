@@ -509,3 +509,18 @@ li::marker {
   height: auto;
   margin: 0 auto;
 }
+
+.blog-container__list-2 {
+  list-style: none;
+}
+
+.blog-container__list-2 li {
+  margin-top: 3.4rem;
+}
+
+.resource-link {
+  text-decoration: none;
+  color: var(--text);
+  border-bottom: 1px solid var(--accent-darker);
+  cursor: pointer;
+}
