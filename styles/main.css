@@ -72,9 +72,10 @@ footer {
 
 .container {
   max-width: 120rem;
+  height: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   margin: auto;
   padding: 0 3.2rem;
   gap: 2rem;
@@ -462,15 +463,6 @@ hr {
 
 /* OPERATIONS */
 
-.blog-container-2 {
-  margin: 0 auto;
-  max-width: 65rem;
-  display: flex;
-  flex-direction: column;
-  place-items: center;
-  /* text-align: justify; */
-}
-
 .blog-container__list-1 {
   list-style: disc;
 }
@@ -523,4 +515,13 @@ li::marker {
   color: var(--text);
   border-bottom: 1px solid var(--accent-darker);
   cursor: pointer;
+}
+
+.blog-container-2 {
+  margin: 0 auto;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  /* text-align: justify; */
 }
