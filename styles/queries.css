@@ -168,6 +168,9 @@
   .home-center {
     display: none;
   }
+  .blog-feed {
+    max-width: 40rem;
+  }
 }
 
 /* 
