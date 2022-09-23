@@ -55,7 +55,7 @@ p {
   font-size: 1.4rem;
 }
 
-footer {
+.home-footer {
   margin-top: 9.6rem;
   text-align: center;
   height: 6.4rem;
@@ -453,16 +453,6 @@ hr {
   grid-column: 1 / 4;
 }
 
-/* .testimonial-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
-  margin-bottom: 1.6rem;
-} */
-
-/* TABBED */
-
-/* OPERATIONS */
-
 .blog-container__list-1 {
   list-style: disc;
 }
@@ -525,3 +515,9 @@ li::marker {
   place-items: center;
   /* text-align: justify; */
 }
+
+/* ////////////////////////////////////////////////////////////
+  ////          NEW BLOG SECTION                          ////
+ //////////////////////////////////////////////////////////// 
+ 
+ */
