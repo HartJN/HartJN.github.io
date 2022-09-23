@@ -536,7 +536,7 @@ li::marker {
 .blog-post__date {
   font-size: 1rem;
   color: var(--text-alt);
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 
 .blog-post__categories {
@@ -545,7 +545,7 @@ li::marker {
   border-color: var(--text);
   border-radius: 0.25rem;
 
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.75rem;
 }
 
 .blog-post__categories--tech {
