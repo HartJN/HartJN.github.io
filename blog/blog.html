@@ -29,6 +29,7 @@
       sizes="16x16"
       href="../favicon-img/favicon-16x16.png"
     />
+    <link rel="stylesheet" href="/styles/blog-test.css" />
     <script src="../scripts/app.js" defer></script>
     <script src="../scripts/bg-canvas.js" defer></script>
     <title>BLOG | James Hart</title>
@@ -54,96 +55,211 @@
 
     <main>
       <div class="container">
-        <h1 class="heading-primary">My Blog</h1>
-        <p class="heading-sub">A place to watch me grow</p>
-
-        <!-- <h2 class="article__primary-heading">Latest Articles</h2> -->
-        <div class="blog-container--grid">
-          <article class="blog-article">
-            <h2 class="blog-article___heading">Mindset</h2>
-            <p class="blog-article__text">
-              What is neuroplasticity and growth mindset.
-            </p>
-            <!-- <ion-icon class="blog__icon" name="book-outline"></ion-icon> -->
-            <a href="/blog/neuroplasticity.html" class="btn btn-2"
-              >Read more...</a
-            >
+        <section>
+          <header class="blog-header">
+            <h1 class="heading-primary">Blogs</h1>
+          </header>
+        </section>
+        <section class="blog-feed">
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/problem-solving.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Problem Solving</h2>
+                <p class="blog-post__blurb">
+                  In this article, I cover some simple problem solving
+                  techniques and times that I have had to put them to use.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-23-09 13:22:00" class="blog-post__date">
+                  September 23, 2022
+                </time>
+              </aside>
+              <span class="blog-post__categories blog-post__categories--tech"
+                ><a href="/tags/tech" class=""> Tech </a></span
+              >
+            </footer>
           </article>
-          <article class="blog-article">
-            <h2 class="blog-article___heading">Problem Solving</h2>
-            <p class="blog-article__text">
-              Some problems I have overcome and different techniques.
-            </p>
-            <!-- <ion-icon class="blog__icon" name="book-outline"></ion-icon> -->
-            <a href="/blog/problem-solving.html" class="btn btn-2"
-              >Read more...</a
-            >
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/neuroplasticity.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Mindset</h2>
+                <p class="blog-post__blurb">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Natus architecto animi esse. Earum aliquid culpa quas corrupti
+                  possimus deserunt nesciunt quidem ratione repellendus
+                  provident? Temporibus ea consectetur impedit reprehenderit
+                  harum?
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-23-09 13:22:00" class="blog-post__date">
+                  September 23, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
           </article>
-          <article class="blog-article">
-            <h2 class="blog-article___heading">Emotional IQ</h2>
-            <p class="blog-article__text">
-              What is Emotional IQ and it's importance to me.
-            </p>
-            <!-- <ion-icon class="blog__icon" name="book-outline"></ion-icon> -->
-            <a href="/blog/emotional-intelligence.html" class="btn btn-2"
-              >Read more...</a
-            >
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a
+                href="/blog/emotional-intelligence.html"
+                class="blog-post__content"
+                ><h2 class="blog-post__title">Emotional IQ</h2>
+                <p class="blog-post__blurb">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Natus architecto animi esse. Earum aliquid culpa quas corrupti
+                  possimus deserunt nesciunt quidem ratione repellendus
+                  provident? Temporibus ea consectetur impedit reprehenderit
+                  harum?
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-15-09 15:27:00" class="blog-post__date">
+                  September 15, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
           </article>
-          <article class="blog-article">
-            <h2 class="blog-article___heading">JavaScript Fundamentals</h2>
-            <p class="blog-article__text">
-              A brief intro to JavaScript and the DOM
-            </p>
-            <!-- <ion-icon class="blog__icon" name="person-outline"></ion-icon> -->
-            <a href="/blog/javascript-dom.html" class="btn btn-2"
-              >Read more...</a
-            >
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/problem-solving.html" class="blog-post__content"
+                ><h2 class="blog-post__title">JavaScript Fundamentals</h2>
+                <p class="blog-post__blurb">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Libero facilis voluptate impedit quae illo perferendis ipsam
+                  laboriosam excepturi saepe? Repellat sunt corporis natus id
+                  fugiat tenetur commodi possimus dolorem ut.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-15-09 15:27:00" class="blog-post__date">
+                  September 15, 2022
+                </time>
+              </aside>
+              <span class="blog-post__categories blog-post__categories--tech"
+                ><a href="/tags/tech" class=""> Tech </a></span
+              >
+            </footer>
           </article>
-          <article class="blog-article">
-            <h2 class="blog-article___heading">Grid vs Flex box</h2>
-            <p class="blog-article__text">
-              Do you know about Grid and Flex box? In this blog, I dive into the
-              differences.
-            </p>
-            <!-- <ion-icon class="blog__icon" name="rocket-outline"></ion-icon> -->
-            <a href="/blog/grid-flex.html" class="btn btn-2">Read more...</a>
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/problem-solving.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Grid vs Flex box</h2>
+                <p class="blog-post__blurb">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Libero facilis voluptate impedit quae illo perferendis ipsam
+                  laboriosam excepturi saepe? Repellat sunt corporis natus id
+                  fugiat tenetur commodi possimus dolorem ut.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-15-09 15:27:00" class="blog-post__date">
+                  September 15, 2022
+                </time>
+              </aside>
+              <span class="blog-post__categories blog-post__categories--tech"
+                ><a href="/tags/tech" class=""> Tech </a></span
+              >
+            </footer>
           </article>
-          <article class="blog-article">
-            <h2 class="blog-article___heading">Learning Plan</h2>
-            <p class="blog-article__text">
-              A look into how I plan on making the most of my time at Dev
-              Academy!
-            </p>
-            <!-- <ion-icon class="blog__icon" name="book-outline"></ion-icon> -->
-            <a href="/blog/learning-plan.html" class="btn btn-2"
-              >Read more...</a
-            >
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/learning-plan.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Learning Plan</h2>
+                <p class="blog-post__blurb">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Natus architecto animi esse. Earum aliquid culpa quas corrupti
+                  possimus deserunt nesciunt quidem ratione repellendus
+                  provident? Temporibus ea consectetur impedit reprehenderit
+                  harum?
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-05-09 18:22:00" class="blog-post__date">
+                  September 05, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
           </article>
-          <article class="blog-article">
-            <h2 class="blog-article___heading">Identity & Values</h2>
-            <p class="blog-article__text">
-              An overview of my outlook on life, how I identify and the values
-              that I hold.
-            </p>
-            <!-- <ion-icon class="blog__icon" name="person-outline"></ion-icon> -->
-            <a href="/blog/identity-values.html" class="btn btn-2"
-              >Read more...</a
-            >
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/identity-values.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Identity & Values</h2>
+                <p class="blog-post__blurb">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Natus architecto animi esse. Earum aliquid culpa quas corrupti
+                  possimus deserunt nesciunt quidem ratione repellendus
+                  provident? Temporibus ea consectetur impedit reprehenderit
+                  harum?
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-05-09 18:22:00" class="blog-post__date">
+                  September 05, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
           </article>
-          <article class="blog-article">
-            <h2 class="blog-article___heading">Classes vs IDs</h2>
-            <p class="blog-article__text">
-              A look into the differences of classes and ids and the best
-              practices.
-            </p>
-            <!-- <ion-icon class="blog__icon" name="rocket-outline"></ion-icon> -->
-            <a href="/blog/html-css.html" class="btn btn-2">Read more...</a>
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/javascript-dom.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Classes vs IDs</h2>
+                <p class="blog-post__blurb">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Libero facilis voluptate impedit quae illo perferendis ipsam
+                  laboriosam excepturi saepe? Repellat sunt corporis natus id
+                  fugiat tenetur commodi possimus dolorem ut.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-05-09 18:22:00" class="blog-post__date">
+                  September 05, 2022
+                </time>
+              </aside>
+              <span class="blog-post__categories blog-post__categories--tech"
+                ><a href="/tags/tech" class=""> Tech </a></span
+              >
+            </footer>
           </article>
-        </div>
+        </section>
       </div>
       <canvas id="canvas" class="canvas"></canvas>
     </main>
-
+    <footer class="home-footer">
+      <a class="btn-home" href="/index.html">Home</a>
+    </footer>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"

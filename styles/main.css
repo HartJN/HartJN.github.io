@@ -521,3 +521,85 @@ li::marker {
  //////////////////////////////////////////////////////////// 
  
  */
+
+.blog-feed {
+  width: 80rem;
+  margin-top: 18rem;
+}
+.blog-feed__item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  flex-direction: row;
+  margin-bottom: 4.6rem;
+
+  padding: 2rem 1rem;
+
+  background-color: #161b226f;
+  border-radius: 0.7rem;
+}
+
+.blog-post {
+  padding-right: 1rem;
+  width: 80%;
+}
+
+.blog-post__content {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background-color: transparent;
+}
+
+.blog-post__title {
+  position: relative;
+  color: var(--accent);
+  margin-bottom: 1rem;
+  font-size: 3.4rem;
+  font-weight: inherit;
+}
+
+.blog-post__blurb {
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.blog-post__meta {
+  display: block;
+  text-align: right;
+}
+
+.blog-post__aside {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.blog-post__date {
+  font-size: 1rem;
+  color: var(--text-alt);
+  margin: 1rem 0;
+}
+
+.blog-post__categories {
+  color: var(--text);
+  border-width: 1px;
+  border-color: var(--text);
+  border-radius: 0.25rem;
+
+  padding: 0.25rem 0.5rem;
+}
+
+.blog-post__categories--tech {
+  background-color: #b969ff;
+}
+
+.blog-post__categories--cultural {
+  background-color: #ff6e69;
+}
+
+.blog-post__categories--tech a,
+.blog-post__categories--cultural a {
+  color: inherit;
+  text-decoration: none;
+}
