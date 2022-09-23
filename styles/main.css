@@ -570,22 +570,23 @@ li::marker {
 .blog-post__categories {
   color: var(--text);
   border-width: 1px;
-  border-color: var(--text);
+  border-color: var(--text-sub);
   border-radius: 0.25rem;
 
   padding: 0.25rem 0.75rem;
 }
 
 .blog-post__categories--tech {
-  background-color: #b969ff;
+  /* background-color: #b969ff; */
+  background-color: #e6554f;
 }
 
 .blog-post__categories--cultural {
-  background-color: #ff6e69;
+  background-color: #a04fe6;
 }
 
 .blog-post__categories--tech a,
 .blog-post__categories--cultural a {
-  color: inherit;
+  color: var(--bg);
   text-decoration: none;
 }
