@@ -141,6 +141,21 @@
   .nav__link:visited {
     font-size: 3rem;
   }
+
+  .home-right__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 50rem;
+    /* justify-content: space-between; */
+  }
+}
+.home-right__heading {
+  margin-bottom: 1rem;
+}
+.contact {
+  margin-top: 2rem;
 }
 
 /* ******************************** */
@@ -153,6 +168,11 @@
   }
   .blog-feed {
     max-width: 50rem;
+  }
+  .home-right__list {
+    /* flex-direction: column; */
+    gap: 2rem;
+    justify-content: flex-start;
   }
 }
 
@@ -170,6 +190,11 @@
   }
   .blog-feed {
     max-width: 40rem;
+  }
+  .home-right__list {
+    flex-direction: column;
+    gap: 1rem;
+    /* justify-content: space-evenly; */
   }
 }
 
