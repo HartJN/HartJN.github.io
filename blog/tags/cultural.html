@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/queries.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon-img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon-img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-img/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/queries.css" />
+    <script src="../scripts/app.js" defer></script>
+    <script src="../scripts/bg-canvas.js" defer></script>
+    <title>BLOG | James Hart</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/index.html" class="logo">
+        <p class="logo__para">
+          <span class="logo__span">{</span>J<span class="logo__span">}</span>
+        </p>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="/index.html">Home</a></li>
+          <li><a class="nav__link" href="/blog/blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <div class="container">
+        <section>
+          <header class="blog-header">
+            <h1 class="heading-primary">Blogs</h1>
+          </header>
+        </section>
+        <section class="blog-feed">
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/neuroplasticity.html" class="blog-post__content"
+                ><h2 class="blog-post__title">
+                  Mindset: How My Learning Is Influenced
+                </h2>
+                <p class="blog-post__blurb">
+                  In this article, I go over what neuroplasticity and a growth
+                  mindset is, and how I plan to use them in my learning journey.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-23-09 13:22:00" class="blog-post__date">
+                  September 23, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
+          </article>
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a
+                href="/blog/emotional-intelligence.html"
+                class="blog-post__content"
+                ><h2 class="blog-post__title">Emotional IQ</h2>
+                <p class="blog-post__blurb">
+                  This blog post would discuss the definition of emotional
+                  intelligence, how it differs from IQ, why it is an important
+                  trait to possess, and it's meaning to me.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-15-09 15:27:00" class="blog-post__date">
+                  September 15, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
+          </article>
+
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/learning-plan.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Learning Plan</h2>
+                <p class="blog-post__blurb">
+                  This blog post is about my learning plan and how I will manage
+                  my workload in this programme. I cover my strengths and
+                  limitations when it comes to learning and my commitments to
+                  help manage my workload.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-05-09 18:22:00" class="blog-post__date">
+                  September 05, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
+          </article>
+          <article class="blog-feed__item">
+            <div class="blog-post">
+              <a href="/blog/identity-values.html" class="blog-post__content"
+                ><h2 class="blog-post__title">Identity & Values</h2>
+                <p class="blog-post__blurb">
+                  In this post, I will share a situation where I have made an
+                  ethical decision, how my culture and the people around me have
+                  influenced my values and identity, what my strengths are, and
+                  how they will support me during my learning journey.
+                </p></a
+              >
+            </div>
+            <footer class="blog-post__meta">
+              <aside class="blog-post__aside">
+                <time datetime="2022-05-09 18:22:00" class="blog-post__date">
+                  September 05, 2022
+                </time>
+              </aside>
+              <span
+                class="blog-post__categories blog-post__categories--cultural"
+                ><a href="/tags/cultural" class=""> Cultural </a></span
+              >
+            </footer>
+          </article>
+        </section>
+      </div>
+      <canvas id="canvas" class="canvas"></canvas>
+    </main>
+    <footer class="home-footer">
+      <a class="btn-home" href="/index.html">Home</a>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
