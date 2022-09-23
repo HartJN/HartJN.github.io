@@ -123,6 +123,7 @@
     visibility: visible;
     transform: translateX(0);
     position: fixed;
+    z-index: 2;
   }
 
   .nav-open .icon-mobile-nav[name='close-outline'] {
