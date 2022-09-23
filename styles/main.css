@@ -516,8 +516,11 @@ li::marker {
 
   padding: 2rem 1rem;
 
-  /* background-color: #161b226f; */
   border-radius: 0.7rem;
+}
+
+.blog-feed__item:hover {
+  background-color: #161b226f;
 }
 
 .blog-post {
