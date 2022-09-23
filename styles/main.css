@@ -336,6 +336,7 @@ hr {
   display: inline-block;
   transition: transform 0.4s;
   color: var(--accent);
+  z-index: -1;
 }
 
 .contact__link:hover {
@@ -506,6 +507,7 @@ li::marker {
 .blog-feed {
   width: 80rem;
   margin-top: 18rem;
+  z-index: -1;
 }
 .blog-feed__item {
   display: flex;
