@@ -179,6 +179,9 @@
   .home-left {
     height: 30rem;
   }
+  .home-page {
+    padding-top: 0rem;
+  }
 }
 
 /* ******************************** */
@@ -188,8 +191,6 @@
 @media (max-width: 23em) {
   .heading-primary {
     font-size: 5.4rem;
-  }
-  .home-left {
   }
 
   .home-center {
@@ -201,15 +202,9 @@
   .home-right__list {
     flex-direction: column;
     gap: 1rem;
-    /* order: 2; */
-    /* justify-content: space-evenly; */
   }
-
-  .home-right__heading {
-    /* order: 1; */
-  }
-  .contact {
-    /* order: 0; */
+  .home-page {
+    padding-top: 0rem;
   }
 }
 
