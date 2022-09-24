@@ -55,8 +55,39 @@ p {
   font-size: 1.4rem;
 }
 
-.mbt-1 {
+/* ////////////////////////////////////////////////////////////
+  ////                  Reusable                          ////
+ //////////////////////////////////////////////////////////// 
+ 
+ */
+
+.flex {
+  display: flex;
 }
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* strong {
+  font-weight: 500;
+} */
+
+/* .margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+} */
 
 .mb-1 {
   margin-bottom: 1rem;
@@ -159,14 +190,11 @@ p {
 /* ******************** */
 
 .header {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0 4.8rem;
   height: var(--nav-height);
   position: relative;
-  /* background-color; */
 }
 
 .logo {
