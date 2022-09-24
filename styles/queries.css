@@ -171,11 +171,11 @@
   }
 
   .blog-container-2 {
-    max-width: 40rem;
+    max-width: 60rem;
   }
 
   .blog-feed {
-    max-width: 50rem;
+    max-width: 60rem;
   }
   .home-right__list {
     /* flex-direction: column; */
@@ -207,7 +207,7 @@
     display: none;
   }
   .blog-feed {
-    max-width: 40rem;
+    max-width: 55rem;
   }
   .home-right__list {
     flex-direction: column;
