@@ -207,62 +207,8 @@
   .home-page {
     padding-top: 0rem;
   }
+  /* code[class*='language-'],
+  pre[class*='language-'] {
+    width: 40rem;
+  } */
 }
-
-/* 
-
-HOME PAGE 
-
-header
-logo
-logo__para
-logo__span
-nav
-nav__list
-nav__link
-btn-mobile-nav
-icon-mobile-nav
-
-home-page
-home-left
-home-left__heading-2
-home-left__heading
-home-left__about-heading
-home-left__about-text
-home-center
-home-right
-home-right__heading
-home-right__list
-home-right__link
-contact
-contact__heading
-contact__link
-
-
-heading-title
-heading-sub
-
-
-container
-heading-title
-blog-container
-blog-container__header
-blog-container__text
-blog-codeblock
-blog-codeblock__span
-btn-home
-
-
-resources-section
-resources-container
-resources__heading
-resources__link
-resources__img
-
-
-blog-article
-blog-article___heading
-blog-article__text
-blog-container--grid
-btn-2
-*/
