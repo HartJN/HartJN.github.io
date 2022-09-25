@@ -359,7 +359,7 @@ hr {
 }
 
 .blog-container__text {
-  padding: 1rem;
+  /* padding: 1rem; */
 }
 
 .blog-container__sub-heading {
@@ -424,10 +424,6 @@ hr {
   padding: 3.4rem;
 }
 
-.blog-container__list-1 {
-  list-style: disc;
-}
-
 li::marker {
   color: var(--accent);
 }
@@ -439,7 +435,8 @@ li::marker {
 
 .blog-container__list-2 {
   list-style: decimal;
-  width: 100%;
+  width: 65rem;
+  /* text-align: center; */
 }
 
 .btn-example {

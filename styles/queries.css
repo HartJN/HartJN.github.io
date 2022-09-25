@@ -203,6 +203,14 @@
   .span--accent {
     font-size: 2rem;
   }
+  .span__list {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+  .blog-container__list-2 {
+    width: 55rem;
+  }
 }
 
 /* ******************************** */
