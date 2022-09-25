@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/main.css" />
     <link rel="stylesheet" href="../styles/queries.css" />
+    <link rel="stylesheet" href="../styles/prism-theme.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,6 +37,7 @@
     />
     <script src="../scripts/app.js" defer></script>
     <script src="../scripts/bg-canvas.js" defer></script>
+    <script src="../scripts/prism.js" defer></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -93,11 +96,9 @@
             only appears on the page once (e.g. navigation-bar, header, footer).
           </p>
           <h3 class="blog-container__sub-heading">Syntax</h3>
-          <p class="blog-codeblock">
-            <span class="blog-codeblock__span">#idExample</span>{ <br /><br />
-            background-color: #fff; <br /><br />
-            }
-          </p>
+          <pre><code class="language-javascript">#idExample{
+            background-color: #fff
+          }</code></pre>
 
           <h2 class="heading-secondary">What is a Class Selector?</h2>
           <p class="blog-container__text">
@@ -111,12 +112,10 @@
             paragraphs, links).
           </p>
           <h3 class="blog-container__sub-heading">Syntax</h3>
-          <p class="blog-codeblock">
-            <span class="blog-codeblock__span">.classExample</span>{
-            <br /><br />
-            background-color: #fff; <br /><br />
-            }
-          </p>
+
+          <pre><code class="language-javascript">.classExample{
+              background-color: #fff
+             }</code></pre>
 
           <h2 class="heading-secondary">
             What is specificity and why does it matter?
