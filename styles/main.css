@@ -314,6 +314,10 @@ hr {
   color: var(--accent);
 }
 
+.home-right__link:hover {
+  color: var(--accent-darker);
+}
+
 .contact {
   gap: 1.2rem;
 }
