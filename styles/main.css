@@ -354,7 +354,7 @@ hr {
   max-width: var(--blog-container-width);
   margin: 9.6rem auto;
   border-radius: 2rem;
-  padding: 3.4rem;
+  /* padding: 3.4rem; */
   row-gap: 2rem;
 }
 
@@ -433,6 +433,11 @@ li::marker {
   padding-left: 4rem;
 }
 
+.blog-container__list-1 {
+  /* width: 65ch; */
+  width: 65rem;
+}
+
 .blog-container__list-2 {
   list-style: decimal;
   width: 65rem;
@@ -478,7 +483,6 @@ li::marker {
 
 .blog-container-2 {
   margin: 0 auto;
-  max-width: 65rem;
 }
 
 /* ////////////////////////////////////////////////////////////
