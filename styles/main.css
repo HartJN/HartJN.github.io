@@ -375,20 +375,10 @@ hr {
   padding: 1.5rem;
 }
 
-.blog-codeblock__span {
+.span--accent {
   color: var(--accent);
 }
 
-.blog-codeblock__span-2 {
-  color: #b969ff;
-}
-
-.blog-codeblock__span-3 {
-  color: var(--accent-darker);
-}
-.blog-codeblock__span-4 {
-  color: #ff6e69;
-}
 .resources-container {
   gap: 2rem;
 }
@@ -441,6 +431,7 @@ li::marker {
 
 .blog-container__list-2 {
   list-style: decimal;
+  width: 100%;
 }
 
 .btn-example {

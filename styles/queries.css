@@ -159,6 +159,9 @@
   .contact {
     margin-top: 2rem;
   }
+  p {
+    font-size: 1.8rem;
+  }
 }
 
 /* ******************************** */
@@ -171,7 +174,7 @@
   }
 
   .blog-container-2 {
-    max-width: 60rem;
+    max-width: 70rem;
   }
 
   .blog-feed {
@@ -187,6 +190,17 @@
   }
   .home-page {
     padding-top: 0rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.4rem;
+  }
+
+  .span--accent {
+    font-size: 2rem;
   }
 }
 
