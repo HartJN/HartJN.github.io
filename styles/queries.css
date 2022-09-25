@@ -191,7 +191,8 @@
   .home-page {
     padding-top: 0rem;
   }
-  p {
+  p,
+  a {
     font-size: 2rem;
   }
 
