@@ -402,6 +402,10 @@ hr {
   color: var(--accent-darker);
 }
 
+.resource-link:hover {
+  color: var(--accent);
+}
+
 .resources__img {
   width: 100%;
   border-radius: 5px;
