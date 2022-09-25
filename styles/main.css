@@ -123,7 +123,7 @@ p {
   overflow-x: hidden;
   text-overflow: ellipsis;
   color: var(--accent);
-
+  margin-bottom: 9.6rem;
   margin-top: 3.4rem;
 }
 
@@ -564,4 +564,11 @@ li::marker {
 .blog-post__categories--cultural a {
   color: var(--bg);
   text-decoration: none;
+}
+
+/* IMAGES */
+
+.header-img {
+  width: 30%;
+  height: auto;
 }
