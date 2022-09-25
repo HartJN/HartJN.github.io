@@ -24,12 +24,6 @@
   scrollbar-color: var(--accent) var(--bg);
 }
 
-*:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.5rem #69afff3a;
-  border-radius: 5px;
-}
-
 html {
   font-size: 62.5%;
   overflow: hidden;
