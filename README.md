@@ -174,10 +174,12 @@ You can find out more about BEM here: [BEM quick start](https://en.bem.info/meth
 - Add Simple JavaScript functions; Lazy Loading, smooth scrolling, pagination on blog section.
 - rename CSS classes
 - Add controls to particle animations - speed, size, amount.
+- Make tab highlighting only show after tab has been pressed.
 
 # [Known Issues]
 
 - ~~Clicking on space around mobile menu links will disable contacts class.~~
+- fix style flash
 
 # changelog
 
