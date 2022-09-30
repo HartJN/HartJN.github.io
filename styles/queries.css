@@ -162,6 +162,10 @@
   p {
     font-size: 1.8rem;
   }
+
+  .btn__tab {
+    font-size: 2.8rem;
+  }
 }
 
 /* ******************************** */
@@ -213,6 +217,12 @@
   }
   .blog-container__list-2 {
     width: fit-content;
+  }
+  .btn__tab {
+    font-size: 3.4rem;
+  }
+  .tab-container {
+    flex-direction: column;
   }
 }
 

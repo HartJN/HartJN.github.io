@@ -572,3 +572,50 @@ li::marker {
   width: 30%;
   height: auto;
 }
+
+/* TABBED SECTION */
+
+.tab-container {
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+}
+
+.btn__tab {
+  background-color: none;
+  padding: 2rem;
+  font-size: 3.2rem;
+  background-color: transparent;
+  color: #142942;
+  border: none;
+}
+
+.tab {
+  transform: translateY(-50%);
+}
+
+.tab--1 {
+  /* background-color: #4f95e6; */
+}
+
+.tab--2 {
+  /* background-color: #4f95e6; */
+}
+
+.tab--active {
+  transform: translateY(-66%);
+  font-size: 3.6rem;
+  color: var(--accent);
+}
+
+.tab__content {
+  display: none;
+}
+.tab__content--1 {
+}
+.tab__content--2 {
+}
+
+.tab__content--active {
+  display: grid;
+}
