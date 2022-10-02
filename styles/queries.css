@@ -208,7 +208,7 @@
   .home-right__list {
     /* display: grid; */
     /* grid-template-columns: 1fr 1fr; */
-    /* gap: 0; */
+    gap: 0;
     /* grid-template-rows: repeat(5, 1fr); */
     flex-direction: column;
     /* gap: 2rem; */
