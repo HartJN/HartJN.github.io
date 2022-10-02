@@ -185,6 +185,10 @@
   .tab--active {
     font-size: 4.4rem;
   }
+
+  .blog-feed {
+    width: 80vw;
+  }
 }
 
 /* ******************************** */
