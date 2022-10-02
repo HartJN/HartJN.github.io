@@ -1,6 +1,6 @@
 :root {
-  --accent: /* #54d02b */ /* #58a6ff */ #69afff;
-  --accent-darker: /* #39a615 */ #4f95e6;
+  --accent: #69afff;
+  --accent-darker: #4f95e6;
   --text: /* #e0e1f0 */ #c9d1d9;
   --bg: /* #14121a */ #0d1117;
   --text-sub: #b7b8c5;
@@ -30,7 +30,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 16px;
   font-family: var(--font);
   color: var(--text-sub);
   background: var(--bg);
@@ -263,26 +263,37 @@ hr {
 .home-left {
   width: 20rem;
   height: 40rem;
+  gap: 1.2rem;
+}
+
+.home-left__greet {
+}
+.home-left__about {
 }
 
 .home-left__heading-2 {
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   color: var(--text);
-  margin-left: 1.4px;
+  margin-left: 2px;
 }
 .home-left__heading {
   color: var(--accent);
-  font-size: 3.8rem;
-  padding: 1.4rem 0;
+  font-size: 4.8rem;
+
   font-weight: var(--weight-bold);
 }
 .home-left__about-heading {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
   color: var(--text);
   font-weight: var(--weight-medium);
 }
 
 /* center */
+
+.home-center {
+  height: 59rem;
+  width: auto;
+}
 
 .home-center__img g {
   fill: var(--accent);
@@ -310,15 +321,18 @@ hr {
 
 .home-right__link:hover {
   color: var(--accent-darker);
+  text-decoration: none;
 }
 
 .contact {
   gap: 1.2rem;
+  align-items: flex-end;
 }
 .contact__icon {
   color: var(--accent);
   height: 25px;
   width: 25px;
+  align-self: center;
 }
 
 .contact__heading {
@@ -327,7 +341,7 @@ hr {
 
 .contact__link {
   text-decoration: none;
-  height: 100%;
+  height: fit-content;
   width: fit-content;
   cursor: pointer;
   display: inline-block;
