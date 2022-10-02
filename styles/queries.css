@@ -258,7 +258,7 @@
 /*  BELOW 340px(Phones) */
 /* ******************************** */
 
-@media (max-width: 23em) {
+@media (max-width: 24em) {
   html {
     font-size: 31.25%;
   }
