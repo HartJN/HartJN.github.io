@@ -322,3 +322,17 @@
     padding: 0 1.5rem;
   }
 }
+
+/* ******************************** */
+/*  FIX IOS*/
+/* ******************************** */
+
+@media (max-height: 46em) {
+  .home-page {
+    height: 100vh;
+  }
+
+  .home-center__img {
+    width: 45%;
+  }
+}
